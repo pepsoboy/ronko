@@ -1,0 +1,133 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+   scroll-behavior: smooth;
+  
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+   font-family: "Anton", sans-serif;
+  background: linear-gradient(90deg,rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 0.656) 100%);
+  font-style: normal;
+ 
+  
+}
+
+#first_photo{
+  width: 100%;
+}
+
+h1{
+  font-weight: 400 ;
+}
+p{
+  font-weight: 400;
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.col-md-12{
+  margin-left: 0;
+}
+
+.navbar a.nav-link {
+    font-family: "Anton", sans-serif  !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.container{
+   background-color: transparent !important;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+footer{
+ background: linear-gradient(90deg,rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 0.656) 100%);
+border-radius: 2px;
+  padding: 0.2%;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+ img{
+  border-radius: 3%;
+ }
+
+ .glass{
+ 
+ background: linear-gradient(90deg,rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 0.656) 100%);
+border-radius: 16px;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+
+ }
+
+
+ 
+
+ .border{
+   border: 1px solid rgba(87,199,133,0.5) !important;
+ }
+
+
+ .centered-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+       background: linear-gradient(90deg,rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 0.656) 100%);
+border-radius: 2px;
+box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+width: 100%;
+font-size: 3vh;
+    }
+
+
+
+    .gallery-img {
+       width: 100%;      /* фото занимает всю ширину колонки */
+  height: auto;     /* высота подстраивается по пропорциям */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    h2{
+      text-align: center;
+    }
+ 
+
+.navbar-nav .nav-link {
+  font-size: 1.25rem; /* примерно 20px */
+  font-weight: 500;   /* чуть жирнее, если хочешь */
+}
