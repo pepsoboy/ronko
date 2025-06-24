@@ -22,145 +22,174 @@
   <div class="container  ">
     
   
-<nav class="navbar navbar-expand-md fixed-top" style="background: rgba(255,255,255,0.95); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-  <div class="container d-flex justify-content-between align-items-center" style="height: 60px;">
-    <a class="navbar-brand" href="#">
-      <img src="image/house.svg" alt="logo" width="40">
+<nav class="navbar fixed-top bg-light shadow-sm">
+  <div class="container d-flex justify-content-center align-items-center py-2">
+    
+    <ul class="navbar-nav d-flex flex-row m-0 align-items-center">
+      <a class="navbar-brand d-flex align-items-center m-0" href="#">
+      <img src="image/house.svg" alt="logo" width="40" style="height: auto; max-height: 100%;" />
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border:none;">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav" style="font-size: 1.1rem; font-weight: 500;">
-        <li class="nav-item">
-          <a class="nav-link" href="#Home" style="color: black;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#AboutUs" style="color: black;">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Service" style="color: black;">Service</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#FindUs" style="color: black;">How to find us?</a>
-        </li>
-      </ul>
-    </div>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark p-0" href="#Home">Home</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark p-0" href="#AboutUs">About us</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark p-0" href="#Service">Service</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark p-0" href="#FindUs">How to find us?</a>
+      </li>
+    </ul>
   </div>
 </nav>
 
-<!-- Чтобы контент не прятался под navbar -->
-<div style="padding-top: 60px;"></div>
 
 
+<div class="pt-4 pt-md-5 pt-lg-5">
+  
+  <div style="
+    position: relative;
+    background-image: url('image/intro1.JPG');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    padding: 2rem 1rem;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+  ">
+    <div style="
+      position: absolute;
+      inset: 0;
+      backdrop-filter: blur(3px);
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      border-radius: 8px;
+    "></div>
 
-
-<div class="container" style=" background-color: #3E5340; border-radius: 8px; margin-bottom: 3rem; padding: 2rem 1rem;">
-  <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 15vw; text-align: center;">
-    <h1 style="font-size: 8vw; margin: 0;">RONKO</h1>
-    <div style="font-size: 2vw; margin-top: 0.5rem;">Renovation and Service</div>
+    <div style="position: relative; z-index: 2; min-height: 15vw;" >
+      <h1 style="font-size: 8vw; margin: 0;">RONKO</h1>
+      <div style="font-size: 4vw; margin-top: 0.5rem;">Renovation and Service</div>
+    </div>
   </div>
 </div>
 
- <div class="container">
-    <div class="row">
-      <div class="col-md-12 d-flex " style="background-image: image(img/1.jpg);">
-        <div class="image-container">
-     <img src="image/2.jpg" alt=""  class="img-fluid"  >
-    <div class="centered-text p-5">We build, fix, and renovate homes, offices, garages, and fences — from design to repairs and handyman work, making your space exactly how you want it.</div>
-  </div>
-       
+
+
+ <div class="container mb-4">
+  <div class="row">
+    <div class="col-12 p-0" style="position: relative; overflow: hidden;">
+      <img src="image/2.jpg" alt="Work Image" class="img-fluid" style="width: 100%; height: auto; display: block;">
+
+      <div style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        color: rgb(255, 255, 255);
+        padding: 2vw 4vw;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 3vw;
+        width: 90%;
+        max-width: 1000px;
+      ">
+       <div style="font-size: 3.5vw; font-weight: 300; line-height: 1.4; text-transform: uppercase;">
+  <span style="color: #ffffff;">We build your space</span><br>
+  <span style="color: #ffffff;">We fix what matters</span><br>
+  <span style="color: #ffffff;">We make it yours</span>
+</div>
       </div>
-      
     </div>
   </div>
+</div>
+
+
  
 <div class="container my-5">
   <div class="row text-center">
-    
-    <div class="col-md-4 mb-4">
-      <div class="p-4 border rounded shadow-sm h-100 brd" >
-        <img src="image/painting.png" alt="Painting" width="60">
-        <h4 class="mt-3">Painting</h4>
+    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+      <div class="p-4 rounded shadow-sm h-100 w-100">
+        <img src="image/painting.png" alt="Painting" width="60" class="mb-3">
+        <h4>Painting</h4>
         <p>High-quality painting for walls, ceilings, and more. Clean, fast, and precise work.</p>
       </div>
     </div>
-    
-    <div class="col-md-4 mb-4">
-      <div class="p-4 border rounded shadow-sm h-100 brd">
-        <img src="image/drywall.svg" alt="Drywall" width="60">
-        <h4 class="mt-3">Drywall</h4>
+    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+      <div class="p-4 rounded shadow-sm h-100 w-100">
+        <img src="image/drywall.svg" alt="Drywall" width="60" class="mb-3">
+        <h4>Drywall</h4>
         <p>Professional drywall installation and finishing: walls, ceilings, and partitions done right.</p>
       </div>
     </div>
-    
-    <div class="col-md-4 mb-4">
-      <div class="p-4 border rounded shadow-sm h-100 brd">
-        <img src="image/renovation.svg" alt="Full Renovation" width="60">
-        <h4 class="mt-3">Full Renovation</h4>
+    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+      <div class="p-4 rounded shadow-sm h-100 w-100">
+        <img src="image/renovation.svg" alt="Full Renovation" width="60" class="mb-3">
+        <h4>Full Renovation</h4>
         <p>Complete renovation services from demolition to final touches — all in one place.</p>
       </div>
     </div>
-
   </div>
 </div>
+
+
+
 <h1 class="text-center">Our work</h1>
 <div class="container my-5">
   <div class="row">
  
     <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/1.jpg" alt="Before 1" class="img-fluid w-100">
+      <img src="image/before1.jpg" alt="Before 1" class="img-fluid w-100">
       <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px; background: linear-gradient(90deg, rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
         BEFORE
       </div>
     </div>
     <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/1.jpg" alt="After 1" class="img-fluid w-100">
+      <img src="image/after1.jpg" alt="After 1" class="img-fluid w-100">
       <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px; background: linear-gradient(90deg, rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+           style="top: 10px; left: 10px;  background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
         AFTER
       </div>
     </div>
 
    
-    <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/1.jpg" alt="Before 2" class="img-fluid w-100">
+  
+
+     <div class="col-12 col-md-6 mb-4 position-relative">
+      <img src="image/before3.JPG" alt="Before 1" class="img-fluid w-100">
       <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px; background: linear-gradient(90deg, rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+           style="top: 10px; left: 10px; background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
         BEFORE
       </div>
     </div>
     <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/1.jpg" alt="After 2" class="img-fluid w-100">
+      <img src="image/after3.JPG" alt="After 1" class="img-fluid w-100">
       <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px; background: linear-gradient(90deg, rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+        AFTER
+      </div>
+    </div>
+  <div class="col-12 col-md-6 mb-4 position-relative">
+      <img src="image/before2.jpg" alt="Before 2" class="img-fluid w-100">
+      <div class="position-absolute text-dark"
+           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
+        BEFORE
+      </div>
+    </div>
+    <div class="col-12 col-md-6 mb-4 position-relative">
+      <img src="image/after2.jpg" alt="After 2" class="img-fluid w-100">
+      <div class="position-absolute text-dark"
+           style="top: 10px; left: 10px;  background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
         AFTER
       </div>
     </div>
   </div>
 </div>
-
-<div class="container my-5 py-5" style="background: #f8f9fa; border-radius: 15px;">
-  <div class="text-center">
-    <h2 class="display-4 font-weight-bold mb-4"
-        style="
-          text-transform: uppercase;
-          color: #ffffff; 
-          text-shadow:linear-gradient(90deg,rgba(196, 218, 132, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%)"
-
-        ">
-      3D Visualisation
-    </h2>
-    <p class="lead mb-0" style="max-width: 800px; margin: 0 auto;">
-      We provide high-quality 3D visualisation services for your interior and exterior projects.
-      Our team brings your renovation ideas to life with detailed and realistic visuals — helping you make better design decisions.
-    </p>
-  </div>
-</div>
-
-
 
 
 
@@ -197,7 +226,7 @@
 
 
 
-<footer class="bg-dark py-3">
+<footer class="py-3">
   <div class="container text-center">
     <small>©2025 Ronko™ Company</small>
   </div>
