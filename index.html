@@ -23,27 +23,30 @@
     
   
 <nav class="navbar fixed-top bg-light shadow-sm">
-  <div class="container d-flex justify-content-center align-items-center py-2">
-    
-    <ul class="navbar-nav d-flex flex-row m-0 align-items-center">
-      <a class="navbar-brand d-flex align-items-center m-0" href="#">
+  <div class="container d-flex  align-items-center py-2">
+    <a class="navbar-brand d-flex align-items-center m-0 mr-3" href="#">
       <img src="image/house.svg" alt="logo" width="40" style="height: auto; max-height: 100%;" />
     </a>
-      <li class="nav-item mx-3">
+    <ul class="navbar-nav d-flex flex-row flex-wrap justify-content-center m-0 align-items-center" style="gap: 1rem;">
+      <li class="nav-item">
         <a class="nav-link text-dark p-0" href="#Home">Home</a>
       </li>
-      <li class="nav-item mx-3">
+      <li class="nav-item">
         <a class="nav-link text-dark p-0" href="#AboutUs">About us</a>
       </li>
-      <li class="nav-item mx-3">
+      <li class="nav-item">
         <a class="nav-link text-dark p-0" href="#Service">Service</a>
       </li>
-      <li class="nav-item mx-3">
+      <li class="nav-item">
+        <a class="nav-link text-dark p-0" href="#FindUs">Projects</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link text-dark p-0" href="#FindUs">How to find us?</a>
       </li>
     </ul>
   </div>
 </nav>
+
 
 
 
@@ -70,12 +73,43 @@
       border-radius: 8px;
     "></div>
 
-    <div style="position: relative; z-index: 2; min-height: 15vw; "  class="mt-5">
-      <h1 style="font-size: 8vw; margin: 0;">RONKO</h1>
+    <div style="position: relative; z-index: 2; min-height: 15vw; "  class="mt-5" id="Home">
+      <h1 style="font-size: 8vw; margin: 0;" >RONKO</h1>
       <div style="font-size: 4vw; margin-top: 0.5rem;">Renovation and Service</div>
+      <div style="font-size: 3vw; margin-top: 0.5rem; color: #ffffff76;">home you are proud of</div>
     </div>
   </div>
 </div>
+<div class="container my-5" id="AboutUs">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-6 mb-4 mb-md-0">
+      <h2 style="
+        
+        font-size: clamp(1.8rem, 4vw, 2.5rem); 
+        color: #ffffff; 
+        margin-bottom: 1rem;
+      ">About Us</h2>
+      <div style="
+        font-size: clamp(0.9rem, 2vw, 1rem); 
+        line-height: 1.6; 
+        color: #ffffff;
+      ">
+        <p style="margin-bottom: 0.8rem;">Let me introduce us a bit.</p>
+        <p style="margin-bottom: 0.8rem;">We doing residential and commercial services.</p>
+        <p style="margin-bottom: 0.8rem;">You ask me “what is it mean?”</p>
+        <p style="margin-bottom: 0.8rem;">We build, fix, renovate your house, apartment, office, garage, fence. We do framing, drywalling, painting, flooring, plumbing and much more.</p>
+        <p style="margin-bottom: 0.8rem;">What is our service? It’s design interior and exterior. It’s general service for your home/work place. Including: change and fix appliances, fix water leaks, electrical works, handyman works.</p>
+        <p style="margin-bottom: 0.8rem;">We do maximum for realise your “wanna”, convert your “wanna” to real thin, coming to reality.</p>
+        <p style="margin-bottom: 0;"><em>We make Home you proud of.</em></p>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <img src="image/design.jpeg" alt="About Us" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+</div>
+
+
 
 
 
@@ -110,125 +144,91 @@
 
 
  
-<div class="container my-5">
+<div class="container my-5" id="Service">
   <div class="row text-center">
-    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+    <div class="col-12 col-sm-6 col-md-3 mb-4 d-flex flex-column align-items-center">
       <div class="p-4 rounded shadow-sm h-100 w-100">
         <img src="image/painting.png" alt="Painting" width="60" class="mb-3">
         <h4>Painting</h4>
         <p>High-quality painting for walls, ceilings, and more. Clean, fast, and precise work.</p>
       </div>
     </div>
-    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+    <div class="col-12 col-sm-6 col-md-3 mb-4 d-flex flex-column align-items-center">
       <div class="p-4 rounded shadow-sm h-100 w-100">
         <img src="image/drywall.svg" alt="Drywall" width="60" class="mb-3">
         <h4>Drywall</h4>
         <p>Professional drywall installation and finishing: walls, ceilings, and partitions done right.</p>
       </div>
     </div>
-    <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex flex-column align-items-center">
+    <div class="col-12 col-sm-6 col-md-3 mb-4 d-flex flex-column align-items-center">
       <div class="p-4 rounded shadow-sm h-100 w-100">
         <img src="image/renovation.svg" alt="Full Renovation" width="60" class="mb-3">
         <h4>Full Renovation</h4>
         <p>Complete renovation services from demolition to final touches — all in one place.</p>
       </div>
     </div>
+    <div class="col-12 col-sm-6 col-md-3 mb-4 d-flex flex-column align-items-center">
+      <div class="p-4 rounded shadow-sm h-100 w-100">
+        <img src="image/tile.png" alt="Tile Work" width="60" class="mb-3">
+        <h4>Tile Work</h4>
+        <p>Durable tiles with bold style. Sharp lines and smooth finishes that elevate any space</p>
+<span style="font-size: 1.2rem; font-weight: 300; color: #ffffff;">3D Design:</span> 
+  <span style="font-style: italic;">We provide <strong style="color: #009d8b;">exclusive design</strong> for your space.</span>
+      </div>
+    </div>
   </div>
 </div>
 
 
 
-<h1 class="text-center">Our work</h1>
-<div class="container my-5">
-  <div class="row">
- 
-    <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/before1.jpg" alt="Before 1" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        BEFORE
-      </div>
+
+<h1 class="text-center">Our Projects</h1>
+<div id="afterCarousel" class="carousel slide my-5" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#afterCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#afterCarousel" data-slide-to="1"></li>
+    <li data-target="#afterCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner text-center">
+
+  
+    <div class="carousel-item active position-relative">
+      <img class="d-block mx-auto" src="image/after1.jpg" alt="After 1"
+           style="max-height: 500px; width: auto; max-width: 95%;">
     </div>
-    <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/after1.jpg" alt="After 1" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px;  background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        AFTER
-      </div>
+
+    
+    <div class="carousel-item position-relative">
+      <img class="d-block mx-auto" src="image/after3.JPG" alt="After 3"
+           style="max-height: 500px; width: auto; max-width: 95%;">
     </div>
 
    
-  
+    <div class="carousel-item position-relative">
+      <img class="d-block mx-auto" src="image/after2.jpg" alt="After 2"
+           style="max-height: 500px; width: auto; max-width: 95%;">
+    </div>
 
-     <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/before3.JPG" alt="Before 1" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px; background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        BEFORE
-      </div>
-    </div>
-    <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/after3.JPG" alt="After 1" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        AFTER
-      </div>
-    </div>
-  <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/before2.jpg" alt="Before 2" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px;  background-color: white;; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        BEFORE
-      </div>
-    </div>
-    <div class="col-12 col-md-6 mb-4 position-relative">
-      <img src="image/after2.jpg" alt="After 2" class="img-fluid w-100">
-      <div class="position-absolute text-dark"
-           style="top: 10px; left: 10px;  background-color: white; padding: 5px 10px; border-radius: 5px; font-weight: 500;">
-        AFTER
-      </div>
-    </div>
   </div>
+
+ 
+  <a class="carousel-control-prev" href="#afterCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#afterCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="width: 3rem; height: 3rem;"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 
 
 
- <div class="container-fluid glass p-3 mt-4 mb-4">
-  <h3 class="d-flex justify-content-center mb-4">Where to find us?</h3>
-  
-  <div class="d-flex justify-content-center align-items-center flex-wrap">
-    <div class="mr-4 mb-2 d-flex align-items-center">
-      <img src="image/104498_facebook_icon.png" alt="Facebook" width="40" class="mr-2"  />
-      <a href="https://www.facebook.com/profile.php?id=61565774106391" class="text-decoration-none ">Facebook</a>
-    </div>
-    <div class="mr-4 mb-2 d-flex align-items-center">
-      <img src="image/1161953_instagram_icon.png" alt="Instagram" width="40" class="mr-2" />
-      <a href="https://www.instagram.com/ronko.build/" class="text-decoration-none ">Instagram</a>
-    </div>
-    <div class="mr-4 mb-2 d-flex align-items-center">
-     
-      <a href="mailto:ronko.renovation.service@gmail.com" class="text-decoration-none ">ronko.renovation.service@gmail.com</a>
-    </div>
-    <div class="mb-2 d-flex align-items-center">
-      
-      <a href="tel:+1234567890" class="text-decoration-none ">+1 (519) 774 4952</a>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-</div>
-
-
-
-<footer class="py-3">
+<footer class="py-3" >
   <div class="container text-center">
-    <small>©2025 Ronko™ Company</small>
+    <small>©2025 Ronko™ Company - cooperate with n.visual.vibes</small>
   </div>
 </footer>
 </body>

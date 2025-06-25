@@ -61,6 +61,7 @@ footer{
 border-radius: 2px;
   padding: 0.2%;
   color: black;
+  font-weight: 300;
 }
 
 p{
@@ -109,8 +110,8 @@ font-size: 3vh;
 
 
     .gallery-img {
-       width: 100%;      /* фото занимает всю ширину колонки */
-  height: auto;     /* высота подстраивается по пропорциям */
+       width: 100%;      
+  height: auto;    
   border-radius: 5px;
   margin-bottom: 15px;
   transition: transform 0.3s ease;
@@ -127,8 +128,8 @@ font-size: 3vh;
  
 
 .navbar-nav .nav-link {
-  font-size: 1.25rem; /* примерно 20px */
-  font-weight: 500;   /* чуть жирнее, если хочешь */
+  font-size: 1.25rem;
+  font-weight: 500;   
 }
 
 a{
@@ -148,3 +149,19 @@ a{
 a{
   white-space: nowrap !important;
 }
+
+ @media (max-width: 430px) {
+      .navbar-nav {
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 0.75rem !important;
+      }
+      .navbar-nav .nav-item {
+        min-width: 80px;
+        text-align: center;
+      }
+      .navbar-nav .nav-link {
+        font-size: 0.9rem;
+        padding: 0.25rem 0;
+      }
+    }
