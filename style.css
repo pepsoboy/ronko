@@ -43,7 +43,7 @@ p {
   font-family: "Anton", sans-serif !important;
   color: rgb(0, 0, 0) !important;
   font-size: clamp(0.75rem, 1vw, 1rem);
-  white-space: nowrap;
+  
 }
 
 .container {
@@ -125,21 +125,7 @@ a {
   padding: 20px;
 }
 
-@media (max-width: 430px) {
-  .navbar-nav {
-    justify-content: center !important;
-    flex-wrap: wrap !important;
-    gap: 0.75rem !important;
-  }
-  .navbar-nav .nav-item {
-    min-width: 80px;
-    text-align: center;
-  }
-  .navbar-nav .nav-link {
-    font-size: 0.9rem;
-    padding: 0.25rem 0;
-  }
-}
+
 
 .icon-white {
   filter: brightness(0) invert(1);
@@ -160,20 +146,20 @@ a {
 
 }
 
-/* Заголовок на мобильных поменьше */
+
 @media (max-width: 576px) {
   #Projects {
     font-size: 2rem !important;
     margin-bottom: 1.5rem !important;
   }
-  /* Уменьшаем высоту картинок карусели на мобилках */
+ 
   .carousel-item img {
     max-height: 300px !important;
     max-width: 100% !important;
   }
 }
 
-/* Контейнеры и паддинги для карусели */
+
 .container {
   max-width: 100% !important;
   padding-left: 15px;
@@ -182,3 +168,24 @@ a {
 
 
 
+.about-text h2 {
+  font-weight: 400;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: clamp(1rem, 2.5vw, 1.1rem);
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 0.8rem;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+.about-text p em {
+  font-style: italic;
+}
